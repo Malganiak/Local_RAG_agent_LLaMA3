@@ -1,0 +1,25 @@
+1. Installer Poetry
+install poetry en powershell : pip install poetry
+
+2. Créer un nouveau projet avec Poetry
+poetry new holystwheel_poetry
+
+3. Initialiser un projet existant
+poetry init
+
+4. Adapter le fichier pyproject.toml pour installer les dépendances
+manuellement : saisir dans la section [tool.poetry.dependencies]
+via ligne de code : poetry add langchain
+
+5. Installer les dépendances et créer l'environnement virtuel
+poetry install
+
+6. Activer l'environnement virtuel
+poetry shell
+
+7. Utiliser l'environnement virtuel pour exécuter des scripts ou des commandes
+poetry run python mon_script.py
+
+8. Installer les dépendances notebooks
+c:/Users/Leo/AppData/Local/pypoetry/Cache/virtualenvs/agentic-rag-0jwqeENu-py3.10/Scripts/python.exe -m pip install ipykernel -U --force-reinstall
+
